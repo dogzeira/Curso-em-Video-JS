@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #5757a8;
+  }
+  
+  section {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    
+  }
+  
+  header {
+    text-align: center;
+    color: #f0f8ff;
+  }
+  
+  footer {
+    text-align: center;
+    color: #f0f8ff;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  div {
+    text-align: center;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+
+    <style>
+        body{
+            background-color:#4d82b4;
+            font: 20pt arial;
+            color: #f0f8ff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Iniciando estudos com o DOM</h1>
+    <P>Aqui vai o resultado</P>
+    <p>Aprendendo a usar o <strong>DOM</strong> sem JS</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write('está esqcrito assim: ' + p1.innerHTML)
+
+/*
+       var d = window.document.getElementById('msg')
+       d.style.background = 'green'
+       d.innerText = 'estou aguardando...'
+*/
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'black'
+    </script>
+</body>
+</html>
+
+
+<!-- window = janela -->
+
+<!-- selecionando : 
+
+    MARCA : getElementByTagName()
+    ID: getElementById()
+    NOME: getElementsByName()
+    CLASSE: getElementsByClassName()
+    SELETOR: querySelector() / querySelectorAll() OBS: MELHOR FORMA DE FAZER É POR SELETOR 
+
+-->

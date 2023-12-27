@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Consulta de Nacionalidade:</h1>
+    <input type="text" id="pais" />
+    <button onclick="consultar()">Consultar</button>
+    <div id="res"></div>
+
+    <script>
+      function consultar() {
+        var pais = window.document.getElementById("pais").value;
+        var res = window.document.getElementById("res");
+
+        res.innerHTML = `Seu pais de origem é ${pais}`;
+
+        if (pais.toLowerCase() == "brasil") {
+          res.innerHTML += `<p>Portanto você é Brasileiro!!</p>`;
+        } else {
+          res.innerHTML += `<p>Portanto Você é estrangeiro!!</p>`;
+        }
+      }
+    </script>
+  </body>
+</html>

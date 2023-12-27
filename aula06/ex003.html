@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Meu Primeiro Programa</title>
+   <style>
+       body{
+           background-color: antiquewhite;
+           font: normal  20pt Arial;
+       }
+   </style>
+</head>
+<body>
+   <h1>Olá, mundo !!</h1>
+   <p>Já me livrei da maldição</p>
+   <script>
+      
+      var n1 = Number.parseInt(window.prompt('digite um número'))
+      var n2 = Number.parseInt(window.prompt('digite outro número'))
+      var soma = n1 + n2
+      alert('A soma dos valores é ' + soma)
+
+      // foi necessário a inserção do Number.parseInt para evitar a concatenação dos números, fazendo com que seja possivel efetuar a soma dos dois números
+
+      // para efetuar efetuar a soma com numeros reais é necessário inserir o Number.parseFloat
+
+      // outra forma possivel também é inserir o Number que automaticamente ele já converte o número sendo real ou inteiro
+
+      // para converter de número para string é necessário inserir o n.toString, o 'n' seria o número que você desejaria converter ou String(n) convertendo tudo para string 
+
+   </script>
+</body>
+</html>
