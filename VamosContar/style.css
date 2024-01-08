@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #82bd8b;
+}
+
+section {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  color: #f0f8ff;
+}
+
+footer {
+  text-align: center;
+  color: #f0f8ff;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+}
